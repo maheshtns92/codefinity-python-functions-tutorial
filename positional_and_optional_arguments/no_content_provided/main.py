@@ -1,6 +1,6 @@
 users_db = []
 
-def add_user(name, age, role = "admin", status = "active"):
+def add_user(name, age, role = "user", status = "active"):
     # Check if the user already exists
     for user in users_db:
         if user["name"] == name:
